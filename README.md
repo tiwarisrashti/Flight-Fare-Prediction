@@ -1,6 +1,6 @@
 # Flight Ticket Price Predictor
 
-![Flight Predictor Logo](flightimg.jpg)
+![Flight Predictor Logo](images/flightimg.jpg)
 
 ## Overview
 This project predicts flight ticket prices based on various features such as airline, source, destination, total stops, and travel date.  
@@ -67,6 +67,15 @@ flight_project/
 | XGBoost | **0.984** | **2894.52** |
 
 *(Values are indicative and may vary depending on dataset splits.)*
+
+---
+
+### Visualizations
+- **XGBoost Performance (Test Set):**  
+  ![XGBoost Actual vs Predicted](images/output.png)
+
+- **Streamlit App Prediction:**  
+  ![Flight Price Prediction App](images/flight_prediction.png)
 
 ---
 
